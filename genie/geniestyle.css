@@ -1,0 +1,33 @@
+body {
+  font-family:monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d2ecfe;
+}
+#testresults {
+  width: 900px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #000;
+  margin-top: 50px;
+  padding: 42px 70px;
+}
+img {
+  height:auto;
+  width:200px;
+}
+img:hover {
+  transform: rotateZ(720deg);
+  transition: transform 0.5s;
+}
+li {
+  padding: 10px;
+}
+.passed {
+  color: #0f0;
+}
+.failed {
+  color: #f00;
+}
